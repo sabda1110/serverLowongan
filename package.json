@@ -4,8 +4,9 @@
   "description": "Backend Lowongan Kerja",
   "main": "index.js",
   "scripts": {
-    "start:backend": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Sabda Setiawan",
   "license": "ISC",
