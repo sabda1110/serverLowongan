@@ -1123,13 +1123,13 @@ app.put('/status', async (req, res) => {
 // Lowongan Untuk Card Info Admin
 
 // Trouble Data Dari Monggo
-// app.get('/tes', async (req, res) => {
-//   try {
-//     const lowongan = await User.find();
-//     res.send(lowongan);
-//   } catch (err) {
-//     console.log(err);
-//   }
-// });
+app.get('/tes', async (req, res) => {
+  try {
+    const lowongan = await User.find();
+    res.send(lowongan);
+  } catch (err) {
+    console.log(err);
+  }
+});
 
 app.listen(PORT, () => console.log(`Server Berjalan pada Port : ${PORT} `));
